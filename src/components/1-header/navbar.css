@@ -1,0 +1,136 @@
+nav{
+    justify-content: space-between;
+
+}
+nav ul.menu,
+nav .logo{
+    padding: .8rem 2rem;
+    margin-top: 1.5rem;
+}
+nav ul.menu{
+    justify-content: space-between ;
+    gap: 4rem;
+    border: 1px solid rgba(84, 84, 84, 0.612);
+    font-weight: 500;
+    border-radius: 30px;
+    box-shadow: 1px 2px 1px #1414ff;
+    color: var(--subtitle);
+}
+nav .logo{
+    border-radius: 50px 0px ;
+    padding: .1rem 1.3rem .5rem .2rem;
+    background-color: var(--original-color);
+}
+nav .logo span{
+    font-family:cursive;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9rem ;
+}
+nav ul.flex li a{
+    color: var(--color);
+    width: max-content;
+    position: relative;
+}
+nav ul.flex li a:hover{
+    color:var(--original-color);
+    font-size: 1.02rem;
+    transition: .3s;
+}
+nav div.menu{
+    display: none;
+    margin-right: 1rem;
+}
+nav ul.flex li a:hover::after{
+    position: absolute;
+    content:"";
+    height: 2px;
+    background: var(--original-color);
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+    animation: line .6s ease-in-out forwards;
+}
+
+/* pop model */
+section.fixed{
+    position: fixed;
+    inset: 0;
+    padding: 1rem 2rem;
+    z-index: 11;
+    background-color: rgba(40, 40, 48, 0.9);
+}
+
+nav section.fixed ul.model{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 1rem;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    border-radius: 2rem;
+    justify-self: start;
+    border: 1px solid ;
+    animation: pop .8s;
+}
+@keyframes pop{
+    0%{
+        scale: .7;
+    }
+    60%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+nav section.fixed ul.model li{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.628);
+}
+nav section.fixed ul.model li.flex{
+    justify-content: space-between;
+}
+nav section.fixed ul.model  svg.cross{
+    color: red;
+    box-shadow: none;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    transition: .3s;
+}
+nav section.fixed ul.model  svg.cross:hover{
+   color: rgb(255, 255, 255);
+}
+nav section.fixed ul.model li:first-child{
+    margin: 0;
+}
+nav section.fixed ul.model li:last-child,
+nav section.fixed ul.model li:first-child{
+    border: none;
+}
+
+@keyframes line{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@media(width >= 730px){
+    nav button.menu-btn,
+    section.fixed{
+        display: none;
+    }
+}
+@media(width < 730px){
+    nav ul.menu{
+        display: none;
+    }
+    nav button.menu-btn{
+        display: flex;
+    }
+}

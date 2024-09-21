@@ -1,0 +1,95 @@
+.hero{
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+div.hero section.left-section{
+    max-width: 60%;
+    align-self:start;
+}
+div.hero section.left-section h2 span{
+    position: relative;
+}
+/* typing name */
+div.hero section.left-section h2 span::before{
+    content: "Youssef Ouzanni";
+    color: var(--original-color);
+}
+div.hero section.left-section h2 span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: var(--secondary);
+    right: -8px;
+    animation: cursor .8s infinite, typing 50s , steps(14) infinite;
+}
+@keyframes words{
+    0%,100%{
+        content: "Youssef Ouzanni";
+    }
+}
+@keyframes cursor{
+    to{
+        border-left: 2px solid rgb(172, 170, 170);
+    }
+}
+@keyframes typing {
+    10%,15%,30%, 35%, 50%,55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%,20%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+/* fin  */
+div.hero img{
+    border-radius: 50%;
+    background-color: #1414ff;
+    box-shadow: 1px 1px 30px #1414ff;
+
+}
+div.hero p{
+    letter-spacing: 1px;
+    color: var(--subtitle);
+}
+div.hero h2{
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    color: var(--title);
+}
+div.hero section.left-section button.cv{
+    margin: 2rem 0;
+    border-radius: 90px;
+    background-color:#290669;
+    color: var(--title);
+    font-size: 18px;
+    padding: .5rem 1rem;
+    border: 2px dotted var(--title);
+    box-shadow: 1px 9px 20px rgb(17, 17, 17);
+    opacity: .8;
+    transition: .3s;
+}
+div.hero section.left-section button.cv:hover{
+    border: 2px solid rgba(255, 255, 255, 0.903);
+    color: var(--color);
+    opacity: .8;
+    background-color: var(--original-color);
+    transition: .3;
+    box-shadow: 2px 2px 30px #1414ff;
+}
+div.hero section.left-section button.cv span{
+    margin-left: .5rem;
+    font-size: 20px;
+}
+@media (width < 900px){
+    .hero img{
+        display: none;
+    }
+    div.hero section.left-section{
+        max-width: 100%;
+        margin-bottom: 6em;
+        margin-top: 1rem;
+        line-height: 1.6rem;
+    }
+}

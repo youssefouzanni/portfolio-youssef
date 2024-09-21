@@ -1,0 +1,48 @@
+ main.skills{
+    text-align: center;
+}
+main.skills h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 4rem 0;
+    color:var(--title);
+}
+
+main.skills div.skills-imges{
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+main.skills div.skills-imges div.img img{
+    width: 100px;
+    min-height: 100px;
+}
+main.skills div.skills-imges div.img .bootstrap{
+    border-radius: 60px;
+}
+main.skills div.skills-imges div.img .mysql{
+    border-radius: 55%;
+}
+main.skills div.skills-imges div.img .php{
+    border-radius: 70%;
+}
+main.skills div.skills-imges div.img .express{
+    border-radius: 50%;
+}
+/*
+
+
+@media (width < 920px){
+    main div div{
+        width: 150px;
+    }
+    main div.flex{
+        gap: 1.5rem;
+    }
+}
+@media (width < 405px){
+    main div.flex div{
+        width: 80%;
+        margin-inline: AUTO;
+    }
+} */
