@@ -13,16 +13,16 @@ function Navbar() {
         </div>
 
         <ul className="flex menu">
-          <li>
+          <li className="box">
             <a href="#about">About Me</a>
           </li>
-          <li>
+          <li className="box">
             <a href="#skills">Skills </a>
           </li>
-          <li>
+          <li className="box">
             <a href="#services">Services</a>
           </li>
-          <li>
+          <li className="box">
             <a href="#contact">Contact Me </a>
           </li>
         </ul> 
