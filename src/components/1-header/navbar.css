@@ -112,6 +112,11 @@ nav section.fixed ul.model li:first-child{
     border: none;
 }
 
+nav svg.menu-icon{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
 @keyframes line{
     0%{
         width: 0%;
@@ -121,7 +126,7 @@ nav section.fixed ul.model li:first-child{
     }
 }
 @media(width >= 730px){
-    nav button.menu-btn,
+    nav svg.menu-icon,
     section.fixed{
         display: none;
     }
@@ -130,7 +135,7 @@ nav section.fixed ul.model li:first-child{
     nav ul.menu{
         display: none;
     }
-    nav button.menu-btn{
+    nav svg.menu-icon{
         display: flex;
     }
 }

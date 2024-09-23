@@ -7,22 +7,9 @@ div.hero section.left-section{
     align-self:start;
 }
 div.hero section.left-section h2 span{
-    position: relative;
+    color: #1414ff;
 }
-/* typing name */
-div.hero section.left-section h2 span::before{
-    content: "Youssef Ouzanni";
-    color: var(--original-color);
-}
-div.hero section.left-section h2 span::after{
-    content: "";
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    background-color: var(--secondary);
-    right: -8px;
-    animation: cursor .8s infinite, typing 50s , steps(14) infinite;
-}
+
 @keyframes words{
     0%,100%{
         content: "Youssef Ouzanni";
@@ -40,6 +27,10 @@ div.hero section.left-section h2 span::after{
     5%,20%,40%,45%,60%,65%,80%,85%{
         width: calc(100% + 8px);
     }
+}
+.hero section.left-section h3{
+    font-size: 2rem;
+    letter-spacing: 1.5px;
 }
 
 /* fin  */
