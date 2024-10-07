@@ -7,7 +7,7 @@ function Footer() {
         <SocialMedia/>
         
         <p>
-          Disgned by Youssef Ouzanni & 2024
+          Designed by Youssef Ouzanni & 2024
         </p>
 
     </footer>

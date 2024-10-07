@@ -11,7 +11,7 @@ function Services() {
         <div className="card">
           <CgWebsite className="logo" />
           <div className="card-content">
-            <h3>Web Disgn</h3>
+            <h3>Web Design</h3>
             <p>
               Transform your online presence with our custom web design
               services. We create modern, responsive websites that engage users
@@ -33,7 +33,7 @@ Elevate your business with our cloud solutions. We offer secure, scalable cloud 
         <div className="card">
           <FaFigma className="logo" />
           <div className="card-content">
-            <h3>UX/UI Disgn</h3>
+            <h3>UX/UI Design</h3>
             <p>
               
 Streamline your design process with our UX/UI services in Figma. We create interactive, user-centered designs that enhance usability and engagement. Let’s bring your vision to life with collaborative, pixel-perfect Figma prototypes!

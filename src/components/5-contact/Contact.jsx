@@ -46,8 +46,9 @@ function Contact() {
       </form>
 
       <section className="animation">
-          <Lottie 
-                  className="email-animation" animationData={emailAnimation}/>
+          <Lottie className="email-animation" 
+                 
+                  animationData={emailAnimation}/>
       </section>
 
       </div>

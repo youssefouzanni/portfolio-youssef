@@ -13,7 +13,7 @@ nav ul.menu{
     border: 1px solid rgba(84, 84, 84, 0.612);
     font-weight: 500;
     border-radius: 30px;
-    box-shadow: 1px 2px 1px #1414ff;
+    box-shadow: 1px 2px 1px var(--original-color);;
     color: var(--subtitle);
 }
 nav .logo{

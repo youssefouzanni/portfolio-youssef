@@ -58,14 +58,14 @@ div.contact form button {
     font-size: 1.4rem;
     font-weight: 500;
     margin: 2rem 0px;
-    background-color: #290669;
+    background-color: var(--original-color);
     border-radius: 8px;
     border: 1px solid #ffffff71;
     color: var(--title);
     opacity: 0.9;
 }
 div.contact form button:hover {
-    background-color: var(--original-color);
+    opacity: .6;
 }
 div.contact form .done {
     height: 35px;

@@ -7,7 +7,7 @@ div.hero section.left-section{
     align-self:start;
 }
 div.hero section.left-section h2 span{
-    color: #1414ff;
+    color: var(--original-color);
 }
 
 @keyframes words{
@@ -35,9 +35,7 @@ div.hero section.left-section h2 span{
 
 /* fin  */
 div.hero img{
-    border-radius: 50%;
-    background-color: #1414ff;
-    box-shadow: 1px 1px 30px #1414ff;
+    border-radius: 20%;
 
 }
 div.hero p{
@@ -52,7 +50,7 @@ div.hero h2{
 div.hero section.left-section button.cv{
     margin: 2rem 0;
     border-radius: 90px;
-    background-color:#290669;
+    background-color: var(--original-color);
     color: var(--title);
     font-size: 18px;
     padding: .5rem 1rem;
@@ -67,7 +65,7 @@ div.hero section.left-section button.cv:hover{
     opacity: .8;
     background-color: var(--original-color);
     transition: .3;
-    box-shadow: 2px 2px 30px #1414ff;
+    box-shadow: 2px 2px 30px var(--original-color);;
 }
 div.hero section.left-section button.cv span{
     margin-left: .5rem;

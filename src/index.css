@@ -8,7 +8,7 @@ html {
     --primary : rgb(34, 35, 51);
     --secondary : rgb(32, 33, 46);
 
-    --original-color : #1414ff;
+    --original-color : #44aea4;
     --title: rgb(244 244 245);
     --subtitle: rgb(161 161 170);
     --color : #fdfdfd
@@ -58,7 +58,7 @@ ul.social-media svg{
     box-shadow: 1px 4px 10px rgb(17, 17, 17);
 }
 ul.social-media svg:hover{
-    color: #1414ff;
+    color: var(--original-color);
     font-size: 2rem;
     background-color: transparent;
 }

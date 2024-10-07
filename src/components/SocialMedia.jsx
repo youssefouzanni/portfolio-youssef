@@ -13,16 +13,16 @@ function SocialMedia() {
   return (
     <ul className="social-media flex" >
       <li>
-        <a href="" ><FaLinkedin className="social-media-box-gsap" /></a>
+        <a href="https://github.com/youssefouzanni" target="_blank"><FaLinkedin className="social-media-box-gsap" /></a>
       </li>
       <li>
-        <a href="" ><FaGithub  className="social-media-box-gsap"/></a>
+        <a href="https://www.linkedin.com/in/youssef-ouzanni-56a922297" target="_blank"><FaGithub  className="social-media-box-gsap"/></a>
       </li>
       <li>
-        <a href="" ><FaFacebook  className="social-media-box-gsap"/></a>
+        <a href="https://web.facebook.com/profile.php?id=100069361247046" target="_blank"><FaFacebook  className="social-media-box-gsap"/></a>
       </li>
       <li>
-        <a href=""><FaInstagram  className="social-media-box-gsap"/></a>
+        <a href="https://www.instagram.com/youssef_ouzanni" target="_blank"><FaInstagram  className="social-media-box-gsap"/></a>
       </li>
     </ul>
   );

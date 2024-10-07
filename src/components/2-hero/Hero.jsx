@@ -80,7 +80,7 @@ function Hero() {
       </section>
 
       <section className="right-section">
-        <img src={img} width={360} height={400} className="animation-img-gsap"/>
+        <img src={img} width={300} height={400} className="animation-img-gsap"/>
       </section>
     </div>
   );
