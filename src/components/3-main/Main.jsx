@@ -21,18 +21,20 @@ function Main() {
       <h2>Skills</h2>
 
       
-      <div className="flex skills-imges">
-       
-       {images.map((ele,i)=>{
-            return  <div key={i} className="img">
-              <img src={ele.src} className={ele.class} title={ele.class}/>
-            </div>
-       })}
-       
+      <div className="container-images">
+          <div className="skills-imges">
+          
+            {images.map((ele,i)=>{
+                  return  <div key={i} className="card">
+                    <img src={ele.src} className={ele.class} title={ele.class}/>
+                  </div>
+            })}
+          
 
+          </div>
       </div>
     </main>
-  );
+  ); 
 }
 
 export default Main;

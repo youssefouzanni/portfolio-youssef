@@ -8,25 +8,25 @@ main.skills h2{
     color:var(--title);
 }
 
-main.skills div.skills-imges{
-    flex-wrap: wrap;
+main.skills div.skills-imges {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px , 1fr));
     gap: 5rem;
 }
-
-main.skills div.skills-imges div.img img{
+main.skills div.skills-imges div.card img{
     width: 100px;
     min-height: 100px;
 }
-main.skills div.skills-imges div.img .bootstrap{
+main.skills div.skills-imges div.card .bootstrap{
     border-radius: 60px;
 }
-main.skills div.skills-imges div.img .mysql{
+main.skills div.skills-imges div.card .mysql{
     border-radius: 55%;
 }
-main.skills div.skills-imges div.img .php{
+main.skills div.skills-imges div.card .php{
     border-radius: 70%;
 }
-main.skills div.skills-imges div.img .express{
+main.skills div.skills-imges div.card .express{
     border-radius: 50%;
 }
 /*
